@@ -13,8 +13,7 @@ def search_property(obj, count, res, arr):
             if obj[i] == res:
                 arr.append(i)
                 return True
-            ok = search_property(obj[i], count, res, arr)
-            if ok:
+            if search_property(obj[i], count, res, arr):
                 arr.append(i)
                 return True
     elif isinstance(obj, dict):
@@ -22,8 +21,7 @@ def search_property(obj, count, res, arr):
             if k == res:
                 # arr.append(k)
                 return True
-            ok = search_property(obj[k], count, res, arr)
-            if ok:
+            if search_property(obj[k], count, res, arr):
                 arr.append(k)
                 return True
     else:
