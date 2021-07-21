@@ -1,9 +1,9 @@
 # search_property_path
 
-v1.0, find the first appear property name in dict, list in python
+Find the first appearance property name in dict in python or get it in object in js.
 ## Example
 
-Init arr as a empty list, and a obj, your target property input those into function search_property(obj, count=0, target, arr)
+Initialize arr as a empty list, a obj(dict) you want to get your property path and your target property input those into function search_property(obj, count=0, target, arr).
 
 ```python
     arr = []
@@ -16,12 +16,13 @@ Init arr as a empty list, and a obj, your target property input those into funct
 ```
 ## Result
 
-In the result, arr is a reversed list which have path name or index
+In the result, arr is a reversed list which have path name or index.
 
 ```python
 arr = [0, 'x', 2, 'v', 'dd', 'ccc', 'cc']
 result = ['cc']['ccc']['dd']['v'][2]['x'][0]
 ```
 ## JavaScript
-Add a javascript version to find a first appear property name in object, get your path, tap arr to get result
+Add a JavaScript version to find a first appear property name in object, get your path, tap arr to get result.
 
+![image-20210721095604110](C:\Users\MENG\AppData\Roaming\Typora\typora-user-images\image-20210721095604110.png)
