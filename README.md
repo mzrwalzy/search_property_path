@@ -22,4 +22,6 @@ In the result, arr is a reversed list which have path name or index
 arr = [0, 'x', 2, 'v', 'dd', 'ccc', 'cc']
 result = ['cc']['ccc']['dd']['v'][2]['x'][0]
 ```
+## JavaScript
+Add a javascript version to find a first appear property name in object, get your path, tap arr to get result
 
